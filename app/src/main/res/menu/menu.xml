@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sort_companies_ascending"
+        android:title="Sort Companies By Names Ascending" />
+    <item android:id="@+id/sort_companies_descending"
+        android:title="Sort Companies By Names Descending" />
+
+    <item android:id="@+id/sort_members_by_name_ascending"
+        android:title="Sort Members By Name Ascending" />
+    <item android:id="@+id/sort_members_by_age_ascending"
+        android:title="Sort Members By Age Ascending" />
+
+    <item android:id="@+id/sort_members_by_name_descending"
+        android:title="Sort Members By Name Descending" />
+    <item android:id="@+id/sort_members_by_age_descending"
+        android:title="Sort Members By Age Descending" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+</menu>

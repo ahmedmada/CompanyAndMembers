@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:paddingTop="3dp"
+    android:layout_margin="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/company_item_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/member_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:text="name"/>
+
+
+                <TextView
+                    android:id="@+id/member_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_margin="2dp"
+                    android:text="age"/>
+                <TextView
+                    android:id="@+id/member_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_margin="2dp"
+                    android:text="phone"/>
+
+                <TextView
+                    android:id="@+id/member_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="mail"/>
+
+                <Button
+                    android:id="@+id/memberFollow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/companyWebsite"
+                    android:layout_alignStart="@+id/companyWebsite"
+                    android:layout_below="@+id/companyWebsite"
+                    android:text="Follow"
+                    android:textColor="#fff"
+                    android:background="@drawable/follow_btn"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
